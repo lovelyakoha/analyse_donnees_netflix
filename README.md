@@ -1,0 +1,1 @@
+L’objectif du mini-projet est de comprendre la composition du catalogue Netflix, d’explorer sa diversité et d'identifier des tendances clés (types de contenus, répartition géographique, évolution temporelle, etc.)
