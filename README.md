@@ -20,7 +20,7 @@ git clone https://github.com/lovelyakoha/analyse_donnees_netflix.git
 `cd analyse_donnees_netflix`
 
 ### 3. Installer les dépendances
-pip install -r requirements.txt`
+`pip install -r requirements.txt`
 
 ### 4. Lancer streamlit
 `streamlit run app/app.py`
