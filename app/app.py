@@ -210,7 +210,7 @@ with tab3:
     st.subheader("Nuage de mots des Genres")
     if st.button("Générer le Nuage"):
         text = ' '.join(df_filtered['listed_in'].dropna())
-        wordcloud = WordCloud(width=800, height=400, background_color='black', colormap='Reds').generate(text)
+        wordcloud = WordCloud(width=800, height=400, background_color='white', colormap='Reds').generate(text)
         fig_wc, ax = plt.subplots(figsize=(12, 6))
         ax.imshow(wordcloud, interpolation='bilinear')
         ax.axis('off')
