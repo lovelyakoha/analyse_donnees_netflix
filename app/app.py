@@ -201,7 +201,7 @@ with tab2:
     month_order = ['January', 'February', 'March', 'April', 'May', 'June', 
                    'July', 'August', 'September', 'October', 'November', 'December']
     fig_month, ax = plt.subplots(figsize=(10, 4))
-    sns.countplot(x='month_added', data=df_filtered, order=month_order, palette='viridis', ax=ax)
+    sns.countplot(x='month_added', hue='month_added', data=df_filtered, order=month_order, palette='viridis', ax=ax)
     plt.xticks(rotation=45)
     ax.set_xlabel("")
     st.pyplot(fig_month)
