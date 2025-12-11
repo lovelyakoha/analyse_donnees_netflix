@@ -1,7 +1,9 @@
 pandas
 numpy
+pillow
 matplotlib
 seaborn
 plotly
 streamlit
 jupyter
+wordcloud
