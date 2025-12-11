@@ -4,6 +4,7 @@ Ce projet propose une analyse exploratoire complète (EDA) et un tableau de bord
 Réalisé dans le cadre du cours **8PRO408 - Outils de programmation pour la science des données**.
 
 Dataset: [https://www.kaggle.com/datasets/shivamb/netflix-shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+Live: [https://analysedonneesnetflix.streamlit.app/](https://analysedonneesnetflix.streamlit.app/)
 
 ## Structure du projet
 - `data/` : Contient le jeu de données (`netflix_titles.csv`).
